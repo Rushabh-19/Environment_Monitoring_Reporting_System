@@ -1,0 +1,59 @@
+.signup-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all child elements horizontally */
+}
+
+header h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+.input-field {
+  display: flex;
+  align-items: center; /* Vertically aligns label and input */
+  margin-bottom: 15px;
+  width: 100%; /* Ensures each input field takes up the container width */
+  max-width: 500px; /* Limits maximum width for the whole field */
+}
+
+.input-field label {
+  margin-right: 10px; /* Adds space between the label and input */
+  font-weight: bold;
+  width: 200px; /* Sets a fixed width for the label */
+  text-align: left; /* Right-aligns label text for better alignment */
+}
+
+.input-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.language-selection {
+  margin-bottom: 15px;
+  align-items: center;
+  text-align: left;
+}
+
+button {
+  width: 100%;
+  max-width: 500px; /* Matches max width of input fields */
+  padding: 10px;
+  align-items: center;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
